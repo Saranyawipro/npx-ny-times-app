@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="showcase"
+  >
+    <div
+      class="overlay' px-5"
+    >
+      <h1
+        class="text-4xl text-bold text-white  text-center mb-4 lg:text-6xl"
+      >
+        NY Times Most Popular Articles for 1 Day 
+      </h1>
+      <div>
+        <form>
+          <div>
+            <h2
+              class="mb-3 text-xl  "
+            >
+              Search for...
+            </h2>
+            <select
+              class="form-select rounded-xl border-4 border-light-blue-500 border-opacity-25"
+            >
+              <option
+                disabled=""
+              >
+                Select Period
+              </option>
+              <option
+                value="1"
+              >
+                1 Day
+              </option>
+              <option
+                value="7"
+              >
+                7 Day
+              </option>
+              <option
+                value="30"
+              >
+                30 Day
+              </option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-skeleton ant-skeleton-active css-dev-only-do-not-override-1ae8k9u"
+  >
+    <div
+      class="ant-skeleton-content"
+    >
+      <h3
+        class="ant-skeleton-title"
+        style="width: 38%;"
+      />
+      <ul
+        class="ant-skeleton-paragraph"
+      >
+        <li />
+        <li />
+        <li
+          style="width: 61%;"
+        />
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
